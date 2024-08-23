@@ -1,0 +1,115 @@
+body{
+    background-color: #222;
+    color: white;
+  
+  }
+  
+  @media (width < 750px){
+    main{
+      min-width:90%;
+      min-height:90%;
+    }
+  
+  @media screen and (width > 750px){
+  #forMedia{
+    text-align:center;
+  
+  }
+  }
+  
+  }
+  
+  main{
+    width: 70%;
+    height: 500px;
+    margin: auto;
+    margin-top: 50px;
+    background: linear-gradient(135deg,cyan,blue,navy 70%,purple);
+    border-radius:20px;
+    box-shadow:1px 10px 50px 20px #40E0D0;
+  
+  }
+  
+  #header{
+    display: flex;
+    justify-content: center;
+  }
+  
+  h1{
+    font-family:verdana;
+    color:white;
+  }
+  
+  #forMedia{
+    margin-top:30px;
+  }
+  
+  #inputP{
+    padding-left:20px;
+    font-size:24px;
+    margin-bottom:0px;
+    text-align:center;
+  }
+  
+  
+  
+  #inputDiv{
+    height:50px;
+      display:flex;
+    justify-content:center;
+  }
+  
+  #text-input{
+    width:90%;
+    max-width:600px;
+    height:40px;
+    margin-left:20px;
+    border:none;
+    background-color: white;
+    opacity:40%;
+    border-radius:5px;
+    font-size:20px;
+  }
+  
+  #text-input:hover{
+    height:42px;
+    width:92%;
+  }
+  
+  #btnDiv{
+    height:60px;
+    display:flex;
+    justify-content:center;
+  }
+  
+  #check-btn{
+    width:400px;
+    height:50px;
+    border-radius:5px;
+    font-size:30px;
+    font-family:monospace;
+    border:none;
+    color:#fff;
+    font-weight:bold;
+    background-color:rgba(0, 255, 255, 0.448);
+    margin-top:20px;
+    cursor:pointer;
+  }
+  
+  #check-btn:hover{
+    width:410px;
+    height:52px;
+    background-color:rgba(0, 255, 255, 0.578);
+  }
+  
+  #resultsDiv{
+    margin-top:80px;
+  }
+  
+  #result{
+    text-align:center;
+    font-family:verdana;
+    font-size:20px;
+  }
+  
+  
